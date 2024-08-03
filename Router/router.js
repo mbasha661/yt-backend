@@ -14,7 +14,7 @@ const Studio = require("./studio");
 // Middlewares
 router.use(
   cors({
-    origin: ["http://localhost:5173","*.*"],
+    origin: ["https://ytclonebasha.netlify.app"],
     // origin: "http://localhost:5173",
     methods: ["POST", "GET"],
     credentials: true,
